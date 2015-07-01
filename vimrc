@@ -95,6 +95,11 @@ set ignorecase
 set smartcase
 
 
+" Set C and C++ filetypes
+au BufRead,BufNewFile *.tpp set filetype=cpp
+au BufRead,BufNewFile *.h set filetype=c
+
+
 " Setup Pathogen to manage your plugins
 call pathogen#infect()
 
