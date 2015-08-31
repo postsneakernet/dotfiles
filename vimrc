@@ -78,6 +78,8 @@ nmap Q gqap
 set history=700
 set undolevels=700
 set spell
+hi clear SpellBad
+hi SpellBad cterm=underline
 
 
 " Use spaces, not tabs
@@ -108,6 +110,7 @@ call pathogen#infect()
 " Python IDE setup
 " ================
 
+
 " Settings for creating new .py files
 if has("autocmd")
 augroup content
@@ -123,9 +126,11 @@ autocmd BufNewFile *.py
 augroup END
 endif
 
+
 " Settings for mapping keys to run file with Python
 map <F3> :w\|!python %
 map <F4> :w\|!python -i %
+
 
 " Settings for vim-powerline
 set laststatus=2
@@ -157,6 +162,7 @@ function! OmniPopup(action)
     endif
     return a:action
 endfunction
+
 
 inoremap <silent><C-j> <C-R>=OmniPopup('j')<CR>
 inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
