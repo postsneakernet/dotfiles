@@ -1,0 +1,16 @@
+# append to babun .bashrc
+
+export VAGRANT_DETECTED_OS="cygwin"
+
+# dir settings
+export box="/cygdrive/d/Documents/Cloud/Dropbox"
+export dev="/cygdrive/d/Documents/Cloud/Dropbox/dev"
+export notes="/cygdrive/d/Documents/Cloud/Dropbox/notes"
+export home="/cygdrive/c/Users/elliot"
+
+
+" cd settings
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
