@@ -1,3 +1,8 @@
+# append to .profile for login shells (Ubuntu server, ssh usage)
+# append to .bashrc for desktop Linux
+# append to .bash_profile for OS X (may need to adjust paths)
+
+
 # virtualenvwrapper settings
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
