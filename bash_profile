@@ -1,3 +1,4 @@
+# Appended from https://raw.githubusercontent.com/postsneakernet/dotfiles/master/bash_profile
 # append to .profile for login shells (Ubuntu server, ssh usage)
 # append to .bashrc for desktop Linux
 # append to .bash_profile for OS X (may need to adjust paths)
