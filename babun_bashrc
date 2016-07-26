@@ -9,7 +9,7 @@ export notes="/cygdrive/d/Documents/Cloud/Dropbox/notes"
 export home="/cygdrive/c/Users/elliot"
 
 
-" cd settings
+# cd settings
 alias ..="cd .."
 alias ..2="cd ../.."
 alias ..3="cd ../../.."
