@@ -133,7 +133,7 @@ execute pathogen#infect()
 
 
 " Set spacing for HTML files
-au BufRead,BufNewFile *.html,*.jsp set ts=2 sts=2 sw=2
+au BufRead,BufNewFile *.html,*.jsp,*.xml set ts=2 sts=2 sw=2
 
 
 " Set C and C++ filetypes
@@ -161,8 +161,8 @@ endif
 
 
 " Settings for mapping keys to run file with Python
-map <F4> :w\|!python %     " save and run in python
-map <F4> :w\|!python -i %  " save and run in python with interactive prompt
+map <F3> :w\|!python %
+map <F4> :w\|!python -i %
 
 
 " Settings for vim-airline
