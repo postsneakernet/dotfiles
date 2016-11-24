@@ -1,12 +1,16 @@
 # append to babun .bashrc
 
+
 export VAGRANT_DETECTED_OS="cygwin"
+
 
 # dir settings
 export box="/cygdrive/d/Documents/Cloud/Dropbox"
 export dev="/cygdrive/d/Documents/Cloud/Dropbox/dev"
 export notes="/cygdrive/d/Documents/Cloud/Dropbox/notes"
 export home="/cygdrive/c/Users/elliot"
+export desktop="/cygdrive/c/Users/elliot/Desktop"
+export vag="/cygdrive/d/Documents/Cloud/Dropbox/dev/python/vagrant/cthulhu"
 
 
 # cd settings
