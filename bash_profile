@@ -1,16 +1,7 @@
 # Appended from https://raw.githubusercontent.com/postsneakernet/dotfiles/master/bash_profile
 # append to .profile for login shells (Ubuntu server, ssh usage)
 # append to .bashrc for desktop Linux
-# append to .bash_profile for OS X (may need to adjust paths)
-
-
-# virtualenvwrapper settings
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
-export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='-p /usr/bin/python3'
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/python
-source /usr/local/bin/virtualenvwrapper_lazy.sh
+# append to .bash_profile for macOS (may need to adjust paths)
 
 
 # git settings

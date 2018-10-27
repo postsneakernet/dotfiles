@@ -53,9 +53,9 @@ let mapleader = ","
 " :tabedit {file} to open file in new tab
 " :tab split to split file in new tab
 " Easier moving between tabs
-" use ,j and ,k to switch between tabs
-map <Leader>k <esc>:tabprevious<CR>
-map <Leader>j <esc>:tabnext<CR>
+" use ,h and ,l to switch between tabs
+map <Leader>h <esc>:tabprevious<CR>
+map <Leader>l <esc>:tabnext<CR>
 
 
 " Map sort function to a key
@@ -111,7 +111,7 @@ hi SpellRare cterm=underline
 hi clear SpellCap
 hi SpellCap cterm=underline
 hi clear SpellLocal
-hi SpellLocal cterm=underlinek
+hi SpellLocal cterm=underline
 
 
 " Use spaces, not tabs
@@ -130,15 +130,6 @@ set expandtab      " use spaces instead of tabs
 " Setup Pathogen to manage your plugins
 " Enable plugin settings below this block
 execute pathogen#infect()
-
-
-" Set spacing for HTML files
-"au BufRead,BufNewFile *.html,*.jsp,*.xml set ts=2 sts=2 sw=2
-
-
-" Set C and C++ filetypes
-"au BufRead,BufNewFile *.tpp set filetype=cpp
-"au BufRead,BufNewFile *.h set filetype=c
 
 
 " Settings for vim-airline
