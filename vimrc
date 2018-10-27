@@ -106,6 +106,12 @@ set undolevels=700           " amount of undo's to allow
 set spell                    " enable spell checking
 hi clear SpellBad            " clear highlight of misspelled group
 hi SpellBad cterm=underline  " underline missspelled group
+hi clear SpellRare
+hi SpellRare cterm=underline
+hi clear SpellCap
+hi SpellCap cterm=underline
+hi clear SpellLocal
+hi SpellLocal cterm=underlinek
 
 
 " Use spaces, not tabs
