@@ -8,12 +8,13 @@ autocmd! bufwritepost .vimrc source %
 " middle-click to paste
 " copy with quote*y and quote+y
 " paste with quote*p and quote+p
+" may need to brew install vim on macOS to get clipboard support
 set pastetoggle=<F2>   " fix indentation
 set clipboard=unnamed  " use * register for unnamed clipboard
 
 
 " Mouse and backspace
-set mouse=a  " on OSX press ALT and CLICK
+set mouse=a  " on macOS press ALT and CLICK
 set bs=2     " make backspace behave like normal again
 
 
