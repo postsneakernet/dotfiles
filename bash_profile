@@ -13,11 +13,6 @@ export PROJECT_HOME=$HOME/python
 source /usr/local/bin/virtualenvwrapper_lazy.sh
 
 
-# django settings
-# curl -so ~/.django_bash_completion https://raw.githubusercontent.com/django/django/master/extras/django_bash_completion
-. ~/.django_bash_completion
-
-
 # cd settings
 alias ..="cd .."
 alias ..2="cd ../.."

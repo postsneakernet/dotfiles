@@ -1,9 +1,3 @@
-" babun settings to play nicely with dropbox
-" set backupdir=~/.vim/backup//
-" set directory=~/.vim/swap//
-" set undodir=~/.vim/undo//
-
-
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
 
@@ -133,36 +127,12 @@ execute pathogen#infect()
 
 
 " Set spacing for HTML files
-au BufRead,BufNewFile *.html,*.jsp,*.xml set ts=2 sts=2 sw=2
+"au BufRead,BufNewFile *.html,*.jsp,*.xml set ts=2 sts=2 sw=2
 
 
 " Set C and C++ filetypes
-au BufRead,BufNewFile *.tpp set filetype=cpp
-au BufRead,BufNewFile *.h set filetype=c
-
-
-" Template for new .py files
-if has("autocmd")
-augroup content
-au BufNewFile *.py
-   \ 0put = '#!/usr/bin/env python'        |
-   \ 1put = '# ' . expand('<afile>')       |
-   \ 2put = ''                             |
-   \ 3put = ''                             |
-   \ 4put = 'def main():'                  |
-   \ 5put = '    pass'                     |
-   \ 6put = ''                             |
-   \ 7put = ''                             |
-   \ 8put = 'if __name__ == \"__main__\":' |
-   \ 9put = '    main()'                   |
-   \ normal 3G
-augroup END
-endif
-
-
-" Settings for mapping keys to run file with Python
-map <F3> :w\|!python %
-map <F4> :w\|!python -i %
+"au BufRead,BufNewFile *.tpp set filetype=cpp
+"au BufRead,BufNewFile *.h set filetype=c
 
 
 " Settings for vim-airline
@@ -217,9 +187,3 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 " Collapses function and class bodies
 " use f to toggle fold function/class and shift f toggle all
 set nofoldenable
-
-
-" Settings for Flake8
-" Source code checking and linter
-" Manually run Flake8 with <F7>
-autocmd BufWritePost *.py call Flake8()  " enables call after saving

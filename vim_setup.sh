@@ -15,9 +15,7 @@ wget -qO ~/.vim/colors/Tomorrow-Night-Eighties.vim https://raw.githubusercontent
 wget -qO ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 
 cd ~/.vim/bundle
-git clone -q https://github.com/derekwyatt/vim-scala.git
 git clone -q https://github.com/vim-airline/vim-airline.git
 git clone -q https://github.com/vim-airline/vim-airline-themes.git
 git clone -q https://github.com/ctrlpvim/ctrlp.vim.git
-git clone -q https://github.com/nvie/vim-flake8.git
 git clone -q --recursive https://github.com/davidhalter/jedi-vim.git
